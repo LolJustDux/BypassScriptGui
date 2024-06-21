@@ -1,0 +1,660 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local nerd = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.302995801, 0, -0.275914818, 0)
+Frame.Size = UDim2.new(0, 2183, 0, 2032)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.398556799, 0, 0.161713511, 0)
+TextLabel.Size = UDim2.new(0, 442, 0, 59)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = "WARNING:"
+TextLabel.TextColor3 = Color3.fromRGB(255, 89, 89)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(95, 95, 173)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(202, 217, 106)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = TextLabel
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.260224134, 0, 0.186491132, 0)
+TextLabel_2.Size = UDim2.new(0, 1042, 0, 59)
+TextLabel_2.Font = Enum.Font.Nunito
+TextLabel_2.Text = "before you use this, you must read this first, this script WILL ban your account for only 1 day"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(194, 194, 194)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = -90
+UIGradient_2.Parent = TextLabel_2
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.260682225, 0, 0.215852812, 0)
+TextLabel_3.Size = UDim2.new(0, 1042, 0, 59)
+TextLabel_3.Font = Enum.Font.Nunito
+TextLabel_3.Text = "why?, well cause your basically saying something bad. thats why you will get banned"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(194, 194, 194)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = -90
+UIGradient_3.Parent = TextLabel_3
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.261140287, 0, 0.244631752, 0)
+TextLabel_4.Size = UDim2.new(0, 1042, 0, 59)
+TextLabel_4.Font = Enum.Font.Nunito
+TextLabel_4.Text = "and this script will probably get you poisoned ban, but you can easily avoid this with an vpn."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(194, 194, 194)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Rotation = -90
+UIGradient_4.Parent = TextLabel_4
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.261140287, 0, 0.273501307, 0)
+TextLabel_5.Size = UDim2.new(0, 1042, 0, 59)
+TextLabel_5.Font = Enum.Font.Nunito
+TextLabel_5.Text = "that is all there is left, press the text below to exit this screen...."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(194, 194, 194)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Rotation = -90
+UIGradient_5.Parent = TextLabel_5
+
+nerd.Name = "nerd"
+nerd.Parent = Frame
+nerd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nerd.BackgroundTransparency = 1.000
+nerd.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nerd.BorderSizePixel = 0
+nerd.Position = UDim2.new(0.405588657, 0, 0.326160133, 0)
+nerd.Size = UDim2.new(0, 412, 0, 50)
+nerd.Font = Enum.Font.JosefinSans
+nerd.Text = "(Press to continue)"
+nerd.TextColor3 = Color3.fromRGB(255, 255, 255)
+nerd.TextScaled = true
+nerd.TextSize = 14.000
+nerd.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(194, 107, 107)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 255, 64))}
+UIGradient_6.Rotation = -90
+UIGradient_6.Parent = nerd
+
+-- Scripts:
+
+local function NMGDP_fake_script() -- nerd.Script 
+	local script = Instance.new('Script', nerd)
+
+	nerd.MouseButton1Down:Connect(function()
+		Frame.Visible = false
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local UICorner = Instance.new("UICorner")
+		local UIGradient = Instance.new("UIGradient")
+		local close = Instance.new("ImageButton")
+		local UIGradient_2 = Instance.new("UIGradient")
+		local TextLabel = Instance.new("TextLabel")
+		local UIGradient_3 = Instance.new("UIGradient")
+		local TextLabel_2 = Instance.new("TextLabel")
+		local UIGradient_4 = Instance.new("UIGradient")
+		local Frame_2 = Instance.new("Frame")
+		local UICorner_2 = Instance.new("UICorner")
+		local ScrollingFrame = Instance.new("ScrollingFrame")
+		local UIListLayout = Instance.new("UIListLayout")
+		local fuck = Instance.new("TextButton")
+		local pussy = Instance.new("TextButton")
+		local shit = Instance.new("TextButton")
+		local cum = Instance.new("TextButton")
+		local cumslut = Instance.new("TextButton")
+		local nigga = Instance.new("TextButton")
+		local bitch = Instance.new("TextButton")
+		local cottonpicker = Instance.new("TextButton")
+		local TextLabel_3 = Instance.new("TextLabel")
+		local UIGradient_5 = Instance.new("UIGradient")
+		local killall = Instance.new("TextButton")
+		local UIGradient_6 = Instance.new("UIGradient")
+		local Frame_3 = Instance.new("Frame")
+		local UICorner_3 = Instance.new("UICorner")
+		local TextLabel_4 = Instance.new("TextLabel")
+		local UIGradient_7 = Instance.new("UIGradient")
+		local TextLabel_5 = Instance.new("TextLabel")
+		local TextLabel_6 = Instance.new("TextLabel")
+		local UIGradient_8 = Instance.new("UIGradient")
+		local TextLabel_7 = Instance.new("TextLabel")
+		local UIGradient_9 = Instance.new("UIGradient")
+	
+		--Properties:
+	
+		ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+		Frame.Parent = ScreenGui
+		Frame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+		Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Frame.BorderSizePixel = 0
+		Frame.Position = UDim2.new(0.316446662, 0, 0.399176955, 0)
+		Frame.Size = UDim2.new(0, 505, 0, 240)
+	
+		UICorner.CornerRadius = UDim.new(0, 13)
+		UICorner.Parent = Frame
+	
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient.Rotation = -30
+		UIGradient.Parent = Frame
+	
+		close.Name = "close"
+		close.Parent = Frame
+		close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		close.BackgroundTransparency = 1.000
+		close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		close.BorderSizePixel = 0
+		close.Position = UDim2.new(0.920792103, 0, 0.0291666668, 0)
+		close.Size = UDim2.new(0, 31, 0, 33)
+		close.Image = "http://www.roblox.com/asset/?id=10002373478"
+	
+		UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient_2.Rotation = -30
+		UIGradient_2.Parent = close
+	
+		TextLabel.Parent = Frame
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0.223762378, 0, 0, 0)
+		TextLabel.Size = UDim2.new(0, 264, 0, 36)
+		TextLabel.Font = Enum.Font.Nunito
+		TextLabel.Text = "bypass script gui"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextScaled = true
+		TextLabel.TextSize = 14.000
+		TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextWrapped = true
+	
+		UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient_3.Rotation = -30
+		UIGradient_3.Parent = TextLabel
+	
+		TextLabel_2.Parent = Frame
+		TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_2.BackgroundTransparency = 1.000
+		TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_2.BorderSizePixel = 0
+		TextLabel_2.Position = UDim2.new(0.320792079, 0, 0.125, 0)
+		TextLabel_2.Size = UDim2.new(0, 166, 0, 22)
+		TextLabel_2.Font = Enum.Font.Nunito
+		TextLabel_2.Text = "@p00kieb34r"
+		TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_2.TextScaled = true
+		TextLabel_2.TextSize = 14.000
+		TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_2.TextTransparency = 0.700
+		TextLabel_2.TextWrapped = true
+	
+		UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient_4.Rotation = -30
+		UIGradient_4.Parent = TextLabel_2
+	
+		Frame_2.Parent = Frame
+		Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Frame_2.BackgroundTransparency = 0.600
+		Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Frame_2.BorderSizePixel = 0
+		Frame_2.Position = UDim2.new(0.0257425737, 0, 0.366666675, 0)
+		Frame_2.Size = UDim2.new(0, 226, 0, 145)
+	
+		UICorner_2.CornerRadius = UDim.new(0, 13)
+		UICorner_2.Parent = Frame_2
+	
+		ScrollingFrame.Parent = Frame_2
+		ScrollingFrame.Active = true
+		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScrollingFrame.BackgroundTransparency = 1.000
+		ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScrollingFrame.BorderSizePixel = 0
+		ScrollingFrame.Size = UDim2.new(0, 226, 0, 145)
+		ScrollingFrame.CanvasPosition = Vector2.new(0, 145)
+		ScrollingFrame.ScrollBarThickness = 5
+	
+		UIListLayout.Parent = ScrollingFrame
+		UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+		fuck.Name = "fuck"
+		fuck.Parent = ScrollingFrame
+		fuck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		fuck.BackgroundTransparency = 1.000
+		fuck.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		fuck.BorderSizePixel = 0
+		fuck.Size = UDim2.new(0, 226, 0, 29)
+		fuck.Font = Enum.Font.Nunito
+		fuck.Text = "fuck"
+		fuck.TextColor3 = Color3.fromRGB(255, 255, 255)
+		fuck.TextScaled = true
+		fuck.TextSize = 14.000
+		fuck.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		fuck.TextWrapped = true
+	
+		pussy.Name = "pussy"
+		pussy.Parent = ScrollingFrame
+		pussy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		pussy.BackgroundTransparency = 1.000
+		pussy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		pussy.BorderSizePixel = 0
+		pussy.Size = UDim2.new(0, 226, 0, 29)
+		pussy.Font = Enum.Font.Nunito
+		pussy.Text = "pussy"
+		pussy.TextColor3 = Color3.fromRGB(255, 255, 255)
+		pussy.TextScaled = true
+		pussy.TextSize = 14.000
+		pussy.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		pussy.TextWrapped = true
+	
+		shit.Name = "shit"
+		shit.Parent = ScrollingFrame
+		shit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		shit.BackgroundTransparency = 1.000
+		shit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		shit.BorderSizePixel = 0
+		shit.Size = UDim2.new(0, 226, 0, 29)
+		shit.Font = Enum.Font.Nunito
+		shit.Text = "shit"
+		shit.TextColor3 = Color3.fromRGB(255, 255, 255)
+		shit.TextScaled = true
+		shit.TextSize = 14.000
+		shit.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		shit.TextWrapped = true
+	
+		cum.Name = "cum"
+		cum.Parent = ScrollingFrame
+		cum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		cum.BackgroundTransparency = 1.000
+		cum.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		cum.BorderSizePixel = 0
+		cum.Size = UDim2.new(0, 226, 0, 29)
+		cum.Font = Enum.Font.Nunito
+		cum.Text = "cum"
+		cum.TextColor3 = Color3.fromRGB(255, 255, 255)
+		cum.TextScaled = true
+		cum.TextSize = 14.000
+		cum.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		cum.TextWrapped = true
+	
+		cumslut.Name = "cumslut"
+		cumslut.Parent = ScrollingFrame
+		cumslut.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		cumslut.BackgroundTransparency = 1.000
+		cumslut.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		cumslut.BorderSizePixel = 0
+		cumslut.Size = UDim2.new(0, 226, 0, 29)
+		cumslut.Font = Enum.Font.Nunito
+		cumslut.Text = "cumslut"
+		cumslut.TextColor3 = Color3.fromRGB(255, 255, 255)
+		cumslut.TextScaled = true
+		cumslut.TextSize = 14.000
+		cumslut.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		cumslut.TextWrapped = true
+	
+		nigga.Name = "nigga"
+		nigga.Parent = ScrollingFrame
+		nigga.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		nigga.BackgroundTransparency = 1.000
+		nigga.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		nigga.BorderSizePixel = 0
+		nigga.Size = UDim2.new(0, 226, 0, 29)
+		nigga.Font = Enum.Font.Nunito
+		nigga.Text = "nigga"
+		nigga.TextColor3 = Color3.fromRGB(255, 255, 255)
+		nigga.TextScaled = true
+		nigga.TextSize = 14.000
+		nigga.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		nigga.TextWrapped = true
+	
+		bitch.Name = "bitch"
+		bitch.Parent = ScrollingFrame
+		bitch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		bitch.BackgroundTransparency = 1.000
+		bitch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		bitch.BorderSizePixel = 0
+		bitch.Size = UDim2.new(0, 226, 0, 29)
+		bitch.Font = Enum.Font.Nunito
+		bitch.Text = "bitch"
+		bitch.TextColor3 = Color3.fromRGB(255, 255, 255)
+		bitch.TextScaled = true
+		bitch.TextSize = 14.000
+		bitch.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		bitch.TextWrapped = true
+	
+		cottonpicker.Name = "cottonpicker"
+		cottonpicker.Parent = ScrollingFrame
+		cottonpicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		cottonpicker.BackgroundTransparency = 1.000
+		cottonpicker.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		cottonpicker.BorderSizePixel = 0
+		cottonpicker.Size = UDim2.new(0, 226, 0, 29)
+		cottonpicker.Font = Enum.Font.Nunito
+		cottonpicker.Text = "cotton picker"
+		cottonpicker.TextColor3 = Color3.fromRGB(255, 255, 255)
+		cottonpicker.TextScaled = true
+		cottonpicker.TextSize = 14.000
+		cottonpicker.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		cottonpicker.TextWrapped = true
+	
+		TextLabel_3.Parent = ScrollingFrame
+		TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_3.BackgroundTransparency = 1.000
+		TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_3.BorderSizePixel = 0
+		TextLabel_3.Position = UDim2.new(0, 0, 0.600000024, 0)
+		TextLabel_3.Size = UDim2.new(0, 226, 0, 29)
+		TextLabel_3.Font = Enum.Font.JosefinSans
+		TextLabel_3.Text = "BONUS"
+		TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_3.TextScaled = true
+		TextLabel_3.TextSize = 14.000
+		TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_3.TextWrapped = true
+	
+		UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 135, 135)), ColorSequenceKeypoint.new(0.12, Color3.fromRGB(235, 173, 136)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(208, 203, 132)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(131, 214, 214)), ColorSequenceKeypoint.new(0.59, Color3.fromRGB(131, 131, 225)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(159, 108, 210)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 126, 216))}
+		UIGradient_5.Rotation = -30
+		UIGradient_5.Parent = TextLabel_3
+	
+		killall.Name = "killall"
+		killall.Parent = ScrollingFrame
+		killall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		killall.BackgroundTransparency = 1.000
+		killall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		killall.BorderSizePixel = 0
+		killall.Size = UDim2.new(0, 226, 0, 29)
+		killall.Font = Enum.Font.Nunito
+		killall.Text = "Kill All"
+		killall.TextColor3 = Color3.fromRGB(255, 255, 255)
+		killall.TextScaled = true
+		killall.TextSize = 14.000
+		killall.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		killall.TextWrapped = true
+	
+		UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(177, 97, 97)), ColorSequenceKeypoint.new(0.12, Color3.fromRGB(173, 127, 100)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(182, 178, 116)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(104, 170, 170)), ColorSequenceKeypoint.new(0.59, Color3.fromRGB(107, 107, 185)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(126, 85, 166)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(181, 89, 154))}
+		UIGradient_6.Rotation = -30
+		UIGradient_6.Parent = killall
+	
+		Frame_3.Parent = Frame
+		Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Frame_3.BackgroundTransparency = 0.600
+		Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Frame_3.BorderSizePixel = 0
+		Frame_3.Position = UDim2.new(0.522772253, 0, 0.366666675, 0)
+		Frame_3.Size = UDim2.new(0, 229, 0, 145)
+	
+		UICorner_3.CornerRadius = UDim.new(0, 13)
+		UICorner_3.Parent = Frame_3
+	
+		TextLabel_4.Parent = Frame_3
+		TextLabel_4.BackgroundColor3 = Color3.fromRGB(115, 255, 0)
+		TextLabel_4.BackgroundTransparency = 1.000
+		TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_4.BorderSizePixel = 0
+		TextLabel_4.Position = UDim2.new(0.11022523, 0, 0.372413784, 0)
+		TextLabel_4.Size = UDim2.new(0, 177, 0, 18)
+		TextLabel_4.Font = Enum.Font.JosefinSans
+		TextLabel_4.Text = "version 1.0.0"
+		TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_4.TextScaled = true
+		TextLabel_4.TextSize = 14.000
+		TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_4.TextWrapped = true
+	
+		UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(128, 151, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(172, 255, 184))}
+		UIGradient_7.Rotation = -30
+		UIGradient_7.Parent = TextLabel_4
+	
+		TextLabel_5.Parent = Frame_3
+		TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_5.BackgroundTransparency = 1.000
+		TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_5.BorderSizePixel = 0
+		TextLabel_5.Position = UDim2.new(0.11022523, 0, 0.496551722, 0)
+		TextLabel_5.Size = UDim2.new(0, 177, 0, 18)
+		TextLabel_5.Font = Enum.Font.Nunito
+		TextLabel_5.Text = "you are currently on the latest version"
+		TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_5.TextScaled = true
+		TextLabel_5.TextSize = 14.000
+		TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_5.TextWrapped = true
+	
+		TextLabel_6.Parent = Frame
+		TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_6.BackgroundTransparency = 1.000
+		TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_6.BorderSizePixel = 0
+		TextLabel_6.Position = UDim2.new(0.487128705, 0, 0.254166663, 0)
+		TextLabel_6.Size = UDim2.new(0, 264, 0, 20)
+		TextLabel_6.Font = Enum.Font.JosefinSans
+		TextLabel_6.Text = "Updates"
+		TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_6.TextScaled = true
+		TextLabel_6.TextSize = 14.000
+		TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_6.TextWrapped = true
+	
+		UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient_8.Rotation = -30
+		UIGradient_8.Parent = TextLabel_6
+	
+		TextLabel_7.Parent = Frame
+		TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_7.BackgroundTransparency = 1.000
+		TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel_7.BorderSizePixel = 0
+		TextLabel_7.Position = UDim2.new(-0.0118811885, 0, 0.254166663, 0)
+		TextLabel_7.Size = UDim2.new(0, 264, 0, 20)
+		TextLabel_7.Font = Enum.Font.JosefinSans
+		TextLabel_7.Text = "bypassed words"
+		TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_7.TextScaled = true
+		TextLabel_7.TextSize = 14.000
+		TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel_7.TextWrapped = true
+	
+		UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(123, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 180))}
+		UIGradient_9.Rotation = -30
+		UIGradient_9.Parent = TextLabel_7
+	
+		-- Scripts:
+	
+		local function WDCW_fake_script() -- close.Script 
+			local script = Instance.new('Script', close)
+	
+			close.MouseButton1Down:Connect(function()
+				Frame.Visible = false
+			end)
+		end
+		coroutine.wrap(WDCW_fake_script)()
+		local function YJIT_fake_script() -- Frame.Script 
+			local script = Instance.new('Script', Frame)
+	
+			Frame.Active = true
+			Frame.Draggable = true
+			local function callback(Text)
+			end
+	
+			local NotificationBindable = Instance.new("BindableFunction")
+			NotificationBindable.OnInvoke = callback
+	
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "bypass chat gui by pookie";
+				Text = "tag: p00kieb34r";
+				Duration = "5";
+				Callback = NotificationBindable;
+			})
+		end
+		coroutine.wrap(YJIT_fake_script)()
+		local function ARVNL_fake_script() -- fuck.Script 
+			local script = Instance.new('Script', fuck)
+	
+			fuck.MouseButton1Down:Connect(function()
+				local A_1 = "千ㄩ匚Ҝ" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(ARVNL_fake_script)()
+		local function RYRSBX_fake_script() -- pussy.Script 
+			local script = Instance.new('Script', pussy)
+	
+			pussy.MouseButton1Down:Connect(function()
+				local A_1 = "卩ㄩ丂丂ㄚ" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(RYRSBX_fake_script)()
+		local function IGNWQY_fake_script() -- shit.Script 
+			local script = Instance.new('Script', shit)
+	
+			shit.MouseButton1Down:Connect(function()
+				local A_1 = " 丂卄丨ㄒ" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(IGNWQY_fake_script)()
+		local function RQEVO_fake_script() -- cum.Script 
+			local script = Instance.new('Script', cum)
+	
+			cum.MouseButton1Down:Connect(function()
+				local A_1 = " 匚ㄩ爪" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(RQEVO_fake_script)()
+		local function KSLKRT_fake_script() -- cumslut.Script 
+			local script = Instance.new('Script', cumslut)
+	
+			cumslut.MouseButton1Down:Connect(function()
+				local A_1 = " 匚ㄩ爪丂ㄥㄩㄒ" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(KSLKRT_fake_script)()
+		local function NUNRZGL_fake_script() -- nigga.Script 
+			local script = Instance.new('Script', nigga)
+	
+			nigga.MouseButton1Down:Connect(function()
+				local A_1 = " nǐǧǧǎ" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(NUNRZGL_fake_script)()
+		local function ZCKN_fake_script() -- bitch.Script 
+			local script = Instance.new('Script', bitch)
+	
+			bitch.MouseButton1Down:Connect(function()
+				local A_1 = "乃丨ㄒ匚卄" local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(ZCKN_fake_script)()
+		local function SUIVT_fake_script() -- cottonpicker.Script 
+			local script = Instance.new('Script', cottonpicker)
+	
+			cottonpicker.MouseButton1Down:Connect(function()
+				local A_1 = "匚ㄖㄒㄒㄖ几　卩丨匚Ҝ乇尺 " local A_2 = "All" 
+				local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+			end)
+		end
+		coroutine.wrap(SUIVT_fake_script)()
+		local function IRJXN_fake_script() -- killall.Script 
+			local script = Instance.new('Script', killall)
+	
+			killall.MouseButton1Down:Connect(function()
+				local function callback(Text)
+				end
+	
+				local NotificationBindable = Instance.new("BindableFunction")
+				NotificationBindable.OnInvoke = callback
+	
+				game.StarterGui:SetCore("SendNotification", {
+					Title = "kill all loaded.";
+					Text = "loops and doesnt kill people sitting";
+					Duration = "5";
+					Callback = NotificationBindable;
+				})
+				spawn(function()
+					while wait(0.00000000000000000000000000000000000000000000000000000000000000000001) do
+						for i, v in next, game:GetService("Players"):GetChildren() do
+							pcall(function()
+								if v~= game:GetService("Players").LocalPlayer and not v.Character:FindFirstChildOfClass("ForceField") and v.Character.Humanoid.Health > 0 then
+									while v.Character:WaitForChild("Humanoid").Health > 0 do
+										wait();
+										game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame;
+										for x, c in next, game:GetService("Players"):GetChildren() do
+											if c ~= game:GetService("Players").LocalPlayer then game.ReplicatedStorage.meleeEvent:FireServer(c) end
+										end
+									end
+								end
+							end)
+							wait()
+						end
+					end
+				end)
+			end)
+		end
+		coroutine.wrap(IRJXN_fake_script)()
+	
+	end)
+end
+coroutine.wrap(NMGDP_fake_script)()
